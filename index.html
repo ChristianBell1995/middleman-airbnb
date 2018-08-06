@@ -7,7 +7,7 @@
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
     <title>Le Wagon - Middleman</title>
-    <link href="stylesheets/application-19526cbf.css" rel="stylesheet" />
+    <link href="stylesheets/application-f29e0ad2.css" rel="stylesheet" />
     <script src="javascripts/application-93de88c9.js"></script>
     <link href="images/favicon-f15af148.png" rel="icon" type="image/png" />
   </head>
@@ -56,7 +56,10 @@
     <div class="banner-content">
       <h1>Le Wagon Berlin</h1>
       <p>Learn to code with us in Berlin</p>
-      <a class="btn btn-primary btn-lg">Start now</a>
+      <form action="location" class="flex-form">
+        <input type="text" name="location" placeholder="Where do you want to code?" class="form-control text-center">
+        <input type="submit" submit="Submit" class='btn btn-danger text-center'>
+      </form>
     </div>
   </div>
 

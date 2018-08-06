@@ -1,5 +1,5 @@
 #home {
-  background-color: #e2dddd;
+  background-color: $gray-light;
   color: white;
   height: 100vh;
   display: flex;
@@ -13,5 +13,25 @@
     color: rgba(0,0,0,0.4);
     font-weight: bold;
     font-size: 16px;
+  }
+  .form-control {
+    width: 70% !important;
+    margin: 16px !important;
+    border-radius: 5px !important;
+  }
+  .btn-danger {
+    border-radius: 12px !important;
+    padding: 0px 12px;
+    background-color: $brand-danger;
+    height: 40px;
+    border: opacity 0.5 $brand-danger !important;
+    &:hover{
+      background-color: $strong-red;
+    }
+  }
+  .flex-form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
   }
 }

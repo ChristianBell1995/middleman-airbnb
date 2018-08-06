@@ -1,9 +1,9 @@
 #home {
-  background-color: #D23333;
+  background-color: #e2dddd;
   color: white;
   height: 100vh;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: space-around;
   text-align: center;
   p {

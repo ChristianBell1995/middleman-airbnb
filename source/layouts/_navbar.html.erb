@@ -1,7 +1,8 @@
 <div class="navbar-wagon">
   <!-- Logo -->
   <a href="/" class="navbar-wagon-brand">
-    <%= image_tag "logo.png" %>
+    <%= image_tag "logo.png"%>
+    <% link_to "index.html" %>
   </a>
 
   <!-- Right Navigation -->
@@ -10,7 +11,7 @@
     <a href="" class="navbar-wagon-item navbar-wagon-link">Host</a>
     <a href="" class="navbar-wagon-item navbar-wagon-link">Trips</a>
     <a href="" class="navbar-wagon-item navbar-wagon-link">Messages</a>
-
+    <%= link_to "Meet the team", "team.html", class: "navbar-wagon-item navbar-wagon-link"%>
     <!-- Profile picture with dropdown list -->
     <div class="navbar-wagon-item">
       <div class="dropdown">

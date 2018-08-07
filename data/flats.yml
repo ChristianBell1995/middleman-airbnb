@@ -1,0 +1,19 @@
+ChristianBell1995:
+  name: Christian's House
+  description: lovely house just outside of London
+  city_name: Beaconsfield
+  city_slug: "beaconsfield"
+  wifi: true
+  capacity: 5
+  rating: 3
+msanchezb:
+  name: Maria's House
+  description: Nice house near CERN
+  city_name: Geneva
+  city_slug: geneva
+  wifi: false
+  capacity: 4
+  rating: 5
+
+
+

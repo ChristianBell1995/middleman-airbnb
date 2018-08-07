@@ -1,0 +1,35 @@
+
+<% flat = data.flats[owner] %>
+
+<div class="wrapper" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/<%= flat.city_slug %>');">"></div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-md-6 col-lg-4">
+      <div class="flat-details">
+        <div class="flat-owner text-center">
+          <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{owner}", class: "img-circle" %>
+          <h6><%= owner %></h6>
+        </div>
+        <div class="flat-name">
+          <h2><%= flat.name %></h2>
+          <p><%= flat.description %></p>
+          </div>
+        <div class="col-xs-12 col-md-4">
+          <form action="book" class="check-in form-group">
+            <input type="text" name="checkin" placeholder="Check In" class="form-control">
+            <input type="text" name="checkout" placeholder="Check Out" class="form-control">
+            <input type="dropdown" >
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- Inject flat data in template -->
+
+

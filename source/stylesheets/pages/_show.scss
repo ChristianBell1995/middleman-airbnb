@@ -1,0 +1,32 @@
+
+.wrapper {
+  height: 30vh;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.flat-details{
+  display: flex;
+  justify-content: space-around;
+  width: 1000px;
+  padding: 50px;
+  border: 1px solid $gray-light;
+  box-shadow: 1px 1px 1px $gray;
+
+  .flat-owner{
+  flex: 0 0 auto;
+
+
+    .img-circle {
+      height: 150px;
+    }
+
+  }
+  .flat-description{
+  flex: 0 0 auto;
+  }
+
+  .check-in {
+    flex: 0 0 auto;
+  }
+}
